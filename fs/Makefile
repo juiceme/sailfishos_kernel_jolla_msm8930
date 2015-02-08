@@ -126,5 +126,8 @@ obj-y				+= exofs/ # Multiple modules
 obj-$(CONFIG_CEPH_FS)		+= ceph/
 obj-$(CONFIG_PSTORE)		+= pstore/
 
+#exfat support
+obj-m                           += exfat/
+
 # Patched by YAFFS
 obj-$(CONFIG_YAFFS_FS)		+= yaffs2/
